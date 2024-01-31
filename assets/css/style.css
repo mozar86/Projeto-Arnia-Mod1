@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+
+:root {
+    --branco: #fff;
+    --branco-escuro: #f8f8f8;
+    --preto: #19212b;
+    --preto-claro: #2d2d2d;
+    --azul-claro: #2F5597;
+    --azul-escuro: #222a35;
+    --cinza-claro: #909090;
+    --cinza-bg: #efefef
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: var(--preto);
+    background-color: var(--branco);
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*-------------------abertura----------------------*/
+.imagem-fundo-1 {
+    background-image: url("../images/image\ 1.png");
+    width: 1440px;
+    height: 823px;
+    top: -2613px;
+    left: -720px;
+}
+
+
+
+.botao-fazer-login {
+    width: Fixed (382px);
+    height: Fixed (72px);
+    top: 491px;
+    left: 529px;
+    padding: 12px, 64px, 12px, 64px;
+    border-radius: 16px;
+    gap: 10px;
+    background: #DCB6F8;
+
+}
+
+
