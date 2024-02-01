@@ -44,26 +44,23 @@ img {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/*-------------------abertura----------------------*/
-.imagem-fundo-1 {
-    background-image: url("../images/image\ 1.png");
+    display: flex;
+    align-items: center;
+    background-image: url("../images/fundo.png");
     width: 1440px;
     height: 823px;
     top: -2613px;
     left: -720px;
+    margin: 0 auto;
 }
 
+/*-------------------abertura----------------------*/
 
+.div-botao {
+    display: flex;
+}
 
 .botao-fazer-login {
-    width: Fixed (382px);
-    height: Fixed (72px);
-    top: 491px;
-    left: 529px;
     padding: 12px, 64px, 12px, 64px;
     border-radius: 16px;
     gap: 10px;
@@ -71,4 +68,8 @@ img {
 
 }
 
+/*---------------Login--------------------*/
 
+
+
+/*---------------Tela inicial--------------*/
