@@ -52,16 +52,18 @@ img {
     top: -2613px;
     left: -720px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 /*-------------------abertura----------------------*/
 
 .div-botao {
     display: flex;
+    justify-content: center;
 }
 
 .botao-fazer-login {
-    padding: 12px, 64px, 12px, 64px;
+    padding: 12px 64px 12px 64px;
     border-radius: 16px;
     gap: 10px;
     background: #DCB6F8;
