@@ -8,18 +8,26 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="container">
-        <form id="formulario-login">
-            <section>
-                <h5 class="titulo-boas-vindas">Seja bem vindo!</h5>
-                <label for="titulo-login" class="titulo-login">Faça seu login </label>
-                <input type="email" id="login-email" name="login-email" required>
-            </section>
-            <section>
-                <input type="password" id="login-password" name="login-password" required>
-            </section>
-            <button class="botao-tela-inicial" type="submit" onclick="botaoTelaInicial()" target="blank">Entrar</button>
-        </form>
+    <div class="container-login">
+        <div class="logo-linkcom">
+            <img class="linkcom-logo-img" src="../assets/images/linkcom.png" alt="Logo da empresa">
+        </div>
+
+        <div class="formulario-login">
+            <form id="formulario-login">
+                <section class="section-1">
+                    <h5 class="titulo-boas-vindas">Seja bem vindo!</h5>
+                    <label for="titulo-login" class="titulo-login">Faça seu login </label>
+                    <input class="input-login" type="email" id="login-email" name="login-email" required>
+                </section>
+                <section class="section-2">
+                    <input class="input-login" type="password" id="login-password" name="login-password" required>
+                </section>
+                <section class="section-3">
+                    <button class="botao-home" type="submit" onclick="botaoHome()" target="blank">Entrar</button>
+                </section>
+            </form>
+        </div>
     </div>    
 </body>
 </html>

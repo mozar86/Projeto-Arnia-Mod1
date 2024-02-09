@@ -43,9 +43,10 @@ img {
     max-width: 100%
 }
 
-.container {
+.container-index {
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-image: url("../images/fundo.png");
     width: 1440px;
     height: 823px;
@@ -55,7 +56,7 @@ img {
     justify-content: center;
 }
 
-/*-------------------abertura----------------------*/
+/*---------------Abertura----------------*/
 
 .div-botao {
     display: flex;
@@ -67,11 +68,129 @@ img {
     border-radius: 16px;
     gap: 10px;
     background: #DCB6F8;
-
+    width: 382px;
+    height: 72px;
+    top: 491px;
+    left: 529px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
 }
 
-/*---------------Login--------------------*/
+img {
+    width: 530.3px;
+    height: 181px;
+    top: 259px;
+    left: 455px;
+}
+/*----------------Login--------------------*/
+
+.container-login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../images/fundo.png");
+    width: 1440px;
+    height: 823px;
+    margin: 0 auto;
+    margin-left: 0%;
+}
+
+.logo-linkcom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkcom-logo-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 414.49px;
+    height: auto;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-radius: 32px, 0px, 0px, 32px; /* não funcionou*/    
+}
+
+.titulo-boas-vindas {
+    display: flex;
+    text-align: left;
+    color: #3E4C76;
+}
+
+.titulo-login {
+    display: flex;
+    color: #502B6B;
+    padding-top: 0.5em;
+    padding-bottom: 2rem;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 382px;
+    height: 72px;
+    padding: 4px;
+    margin-right: 9rem;
+    margin-left: 9rem;
+    border-color: aqua;
+    border-radius: 0.7rem;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.botao-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #502B6B;
+    color: white;
+    width: 382px;
+    height: 72px;
+    margin-right: 9rem;
+    margin-left: 9rem;
+    border-radius: 0.7rem;
+}
 
 
-
-/*---------------Tela inicial--------------*/
+/*----------------Home--------------------*/
