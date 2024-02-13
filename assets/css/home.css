@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+    --branco: #fff;
+    --branco-escuro: #f8f8f8;
+    --preto: #19212b;
+    --preto-claro: #2d2d2d;
+    --azul-claro: #2F5597;
+    --azul-escuro: #222a35;
+    --cinza-claro: #909090;
+    --cinza-bg: #efefef
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 16px;
+    color: var(--preto);
+    background-color: var(--branco);
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/*-----------------*/
+
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.foto-perfil {
+    display: inline-block;
+    width: 56px;
+    margin-left: 60px;
+    height: auto;
+}
+
+.nome-perfil {
+    align-items: center;
+    white-space: nowrap;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    padding-top: 15px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.botao-home, .botao-produtos, .botao-meu-perfil {
+    background-color: transparent;
+    border-color: transparent;
+    color: #909090;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Sora', sans-serif;
+    background-image: url("../images/topo.png");
+    max-width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.section-saldo {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #909090;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.valor-saldo {
+    font-family: 'Guardians' ,sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #DCB6F8;
+
+}
+
+.section-joias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 142px;
+    height: auto;
+    max-width: 100%;
+    margin-left: 45%;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.section-calendario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 407px;
+    max-width: 100%;
+    height: 40px;
+    margin-left: 35%;
+    border-radius: 20px;
+    background-color: black;
+    color: #909090;
+    padding: 2px 12px 2px 10px;
+    margin: 0 auto;
+}
+
+.icone-calendario {
+    width: 24px;
+    height: auto;
+}
+
+.section-validade-lupa {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin: 0 auto;
+}
+
+.validade {
+    color: #909090;
+    margin-bottom: 2.5em;
+}
+
+.lupa {
+    position: absolute; 
+    bottom: 16vh; 
+    right: calc(50% - 330px);
+    width: 661px;
+    height: 72px;
+    border-radius: 10px;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    background-image: url("../images/lupa.png");
+    background-size: 32px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.container-home {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.banner-central {
+    text-align: center;
+    margin-top: 10em;
+    width: 1170px;
+}
+
+/*--------------------------------------------*/
+
+.titulo-produtos {
+    font-family: 'Sora', sans-serif;
+    margin-top: 10em;
+    margin-left: 140px;
+    margin-bottom: 2.5em;
+    width:  1170px;
+}
+
+.conjunto-cards {
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-produto {
+    width: 270px;
+    height: 317px;
+    margin: 10px;
+    border: 1px solid #2F5597;
+    border-radius: 16px;
+}
+
+.imagem-produto {
+    align-items: flex-start;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+    margin-left: 60px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.descricao-produto {
+    padding: 10px;
+}
+
+.titulo-produto {
+    margin: 0;
+}
+
+.botao-card {
+    background-color: #502B6B;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
