@@ -194,6 +194,7 @@ img {
 .banner-central {
     text-align: center;
     margin-top: 10em;
+    margin-left: 7.5%;
     width: 1170px;
 }
 
@@ -202,9 +203,10 @@ img {
 .titulo-produtos {
     font-family: 'Sora', sans-serif;
     margin-top: 10em;
-    margin-left: 140px;
+    margin-left: 7.5%;
     margin-bottom: 2.5em;
     width:  1170px;
+    color: #212121;
 }
 
 .conjunto-cards {
@@ -212,13 +214,17 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 7.5%;
 }
 
 .card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: 270px;
     height: 317px;
     margin: 10px;
-    border: 1px solid #2F5597;
     border-radius: 16px;
 }
 
@@ -233,19 +239,33 @@ img {
 }
 
 .descricao-produto {
-    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    height: 160px;
 }
 
 .titulo-produto {
-    margin: 0;
+    text-align: center;
+    max-height: 100%;
+    padding: 10px;
+}
+
+.div-botao-card {
+    align-items: self-end;
+    justify-content: center;
+    margin-left: 5.5%;
+    margin-bottom: 5.5%;
+
 }
 
 .botao-card {
+    text-align: center;
     background-color: #502B6B;
     color: #fff;
     border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
+    width: 238px;
+    height: 40px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
