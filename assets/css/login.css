@@ -85,6 +85,7 @@ img {
     background-color: #fff;
     width: 50%;
     height: 100%;
+    font-family: 'Sora', sans-serif;
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px; 
 }
@@ -95,19 +96,22 @@ img {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .titulo-boas-vindas {
     display: flex;
     text-align: left;
-    color: #3E4C76;
+    color: #502B6B;
+    font-size: 18px;
 }
 
 .titulo-login {
     display: flex;
     color: #502B6B;
-    padding-top: 0.5em;
-    padding-bottom: 2rem;
+    padding-top: 0.2em;
+    padding-bottom: 2.5rem;
 }
 
 .input-login {
@@ -122,6 +126,7 @@ img {
     margin-left: 9rem;
     border-color: aqua;
     border-radius: 0.7rem;
+    font-size: 18px;
 }
 
 .section-1 {
@@ -156,10 +161,13 @@ img {
     justify-content: space-around;
     align-items: center;
     background-color: #502B6B;
+    font-size: 18px;
+    font-weight: bold;
     color: white;
     width: 382px;
     height: 72px;
     margin-right: 9rem;
     margin-left: 9rem;
     border-radius: 0.7rem;
+    cursor: pointer;
 }
