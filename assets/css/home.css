@@ -117,14 +117,20 @@ img {
 }
 
 .valor-saldo {
-    font-family: 'Guardians' ,sans-serif;
     font-size: 80px;
     font-weight: 400;
     line-height: 99px;
     letter-spacing: -0.02em;
     text-align: center;
     color: #DCB6F8;
+    width: auto;
+    height: 90px;
+}
 
+.imagem-valor {
+    padding-top: 20px;
+    width: 80%;
+    height: auto;
 }
 
 .section-joias {
