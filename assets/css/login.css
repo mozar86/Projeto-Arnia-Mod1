@@ -161,6 +161,7 @@ img {
     justify-content: space-around;
     align-items: center;
     background-color: #502B6B;
+    font-family: 'Sora', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -168,6 +169,6 @@ img {
     height: 72px;
     margin-right: 9rem;
     margin-left: 9rem;
-    border-radius: 0.7rem;
+    border-radius: 16px;
     cursor: pointer;
 }
