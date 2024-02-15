@@ -98,7 +98,7 @@ img {
     font-family: 'Sora', sans-serif;
     background-image: url("../images/topo.png");
     max-width: 100%;
-    height: 500px;
+    height: 545px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,9 +127,25 @@ img {
     height: 90px;
 }
 
+.saldo-joias {
+    color: #DCB6F8;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    height: 34px;
+    margin-bottom: 20px;
+}
+
+.saldo-joias2 {
+    color: #DCB6F8;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    height: 34px;
+}
+
 .imagem-valor {
-    padding-top: 20px;
-    width: 80%;
+    width: 95%;
     height: auto;
 }
 
@@ -150,8 +166,8 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
-    width: 440px;
+    justify-content: space-evenly;
+    width: 460px;
     max-width: 100%;
     height: 40px;
     margin-left: 35%;
@@ -160,8 +176,8 @@ img {
     font-size: 18px;
     font-weight: bold;
     background-color: black;
+    letter-spacing: .2px;
     color: #909090;
-    padding: 2px;
     margin: 0 auto;
 }
 
@@ -185,10 +201,10 @@ img {
 }
 
 .lupa {
-    position: absolute; 
-    bottom: 16vh; 
-    right: calc(50% - 330px);
-    width: 661px;
+    position: relative; 
+    bottom: 6vh; 
+    margin-left: 27.5%;
+    width: 45%;
     height: 72px;
     border-radius: 8px;
     font-family: 'Sora', sans-serif;

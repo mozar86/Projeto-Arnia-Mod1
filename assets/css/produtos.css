@@ -30,14 +30,6 @@ a, a:hover {
     outline: none;
 }
 
-ul {
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
 img {
     width: 100%;
     height: auto;
@@ -93,4 +85,74 @@ img {
 
 .container-produtos {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-top: 102px;
+}
+
+.imagem-produtos {
+    width: 45%;
+    height: auto;
+}
+
+.imagem-produto {
+    width: 470px;
+    height: 410px;
+    border-radius: 16px;
+    border: 1px #F5F4F9;
+    background-color: #F5F4F9;
+    margin-left: 135px;
+}
+
+.info-produtos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0%;
+    width: 700px;
+    height:  410px;
+    margin-bottom: 299px;
+}
+
+.titulo-produto {
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: .2px;
+    width: 670px;
+    height: 34px;
+    margin-bottom: 16px;
+}
+
+.preco-produto {
+    width: 86px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.descricao-produto {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    color: #616161;
+    width: 570px;
+    height: 197px;
+    margin-bottom: 30px;
+}
+
+.botao-produto {
+    text-align: center;
+    justify-content: flex-start;
+    width: 270px;
+    height: 72px;
+    border-radius: 16px;
+    padding: 12px 64px 12px 64px;
+    gap: 10px;
+    background-color: #502B6B;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
