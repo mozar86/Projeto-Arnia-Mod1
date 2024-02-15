@@ -254,6 +254,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-left: 7.5%;
     width: 85%;
     max-width: 100%;
@@ -267,7 +268,7 @@ img {
     align-items: flex-start;
     width: 22%;
     height: 317px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 16px;
 }
 
@@ -277,6 +278,8 @@ img {
     width: auto;
     height: 150px;
     margin-left: 60px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
