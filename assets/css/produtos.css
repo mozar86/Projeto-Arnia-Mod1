@@ -137,6 +137,7 @@ img {
     font-family: 'Sora', sans-serif;
     font-size: 16px;
     color: #616161;
+    overflow: hidden;
     width: 570px;
     height: 197px;
     margin-bottom: 30px;

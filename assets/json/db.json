@@ -1,0 +1,52 @@
+{
+    "produtos": [
+        {
+            "id": "1",
+            "nome": "Console Sony Play Station 5 SSD 825GB",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "2",
+            "nome": "Cadeira Gamer KBM! Gaming Tempest CG600",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "3",
+            "nome": "Headset Gamer Redragon Zeus X Chroma Mk.II",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "4",
+            "nome": "Gabinete Gamer Rise Mode Glass 06X",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "5",
+            "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "6",
+            "nome": "Smart TV TCL S5400A 43 Polegadas LED FHD",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "7",
+            "nome": "Smartphone Motorola Moto Edge 30 Neo 256GB 8GB RAM",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        },
+        {
+            "id": "8",
+            "nome": "SSD 500GB SanDisk Plus NVMe",
+            "preco": 2,
+            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer.            Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+        }
+    ]
+}
