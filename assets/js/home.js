@@ -21,13 +21,13 @@ const injetarProduto = (produtos) => {
     produtos.forEach(produto => {
         conteudoProduto = conteudoProduto + 
         `
-        <div class="card-produto">
+        <div class="card-produto" data-id="${produto.id}">
             <img class="imagem-produto" src="${produto.imagem}" alt="Imagem de um ${produto.nome}">
             <div class="descricao-produto">
                 <h3 class="titulo-produto">${produto.nome}</h3>
             </div>
             <div class="div-botao-card">
-            <button class="botao-card" onclick="botaoResgatar(${produto.id})" data-id="${produto.id}">Resgatar</button>
+            <button class="botao-card" onclick="botaoResgatarHome(${produto.id})" data-id="${produto.id}">Resgatar</button>
             </div>
         </div>
         `
@@ -48,7 +48,7 @@ carregarProdutos()
 
 /*------------------------------------*/
 
-const botaoResgatar = (id) => {
-    window.location.href = `resgate.html?id=${id}`;
+const botaoResgatarHome = (id) => {
+    window.location.href = `produtos.html?id=${id}`;
 }
 
