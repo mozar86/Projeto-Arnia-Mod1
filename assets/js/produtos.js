@@ -35,8 +35,21 @@ const mostrarProdutos = async (produtos) => {
 
         containerProdutos.innerHTML = conteudoProduto
     } catch (error) {
-        console.error('Erro ao exibir produtos:', error)
-        containerProdutos.innerHTML = 'Erro ao carregar produtos.'
+        console.error('Clique em Resgatar e escolha um produto!', error)
+        containerProdutos.innerHTML = 
+        `
+            <section class="imagem-produtos">
+                <img class="imagem-produto" src="../assets/images/console-sony-playstation-5.png" alt="Imagem de um Play Station 5">
+            </section>
+            <section class="info-produtos">
+                <h3 class="titulo-produto">Console Sony Play Station 5 SSD 825GB</h3>
+                <img class="preco-produto" src="../assets/images/preco-produto.png" alt="Imagem do Preço do Produto">
+                <div class="descricao-produto">
+                    <p>Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer. Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados.</p>
+                </div>
+                <button class="botao-produto">Resgatar</button>
+            </section>
+        `
     }
 }
 
@@ -51,4 +64,8 @@ const carregarDadosProdutos = async () => {
 
 carregarDadosProdutos()
 
+/*---------------------------------------------------------------------------*/
 
+const botaoConfirmacaoResgate = (id) => {
+    window.location.href = `resgate.html?id=${id}`;
+}
