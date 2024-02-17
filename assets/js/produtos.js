@@ -19,7 +19,8 @@ const mostrarProdutos = async (produtos) => {
 
         const produto = produtos.find(produto => produto.id === id)
 
-        const conteudoProduto = `
+        const conteudoProduto = 
+        `
             <section class="imagem-produtos">
                 <img class="imagem-produto" src="${produto.imagem}" alt="Imagem de um ${produto.nome}">
             </section>
@@ -29,7 +30,7 @@ const mostrarProdutos = async (produtos) => {
                 <div class="descricao-produto">
                     <p>${produto.descricao}</p>
                 </div>
-                <button class="botao-produto" onclick="botaoResgateConfirmado('${produto.id}')" data-id="${produto.id}">Resgatar</button>
+                <button class="botao-produto" id="botao-produto" onclick="botaoResgateConfirmado('${produto.id}')" data-id="${produto.id}">Resgatar</button>
             </section>
         `
 
@@ -66,6 +67,6 @@ carregarDadosProdutos()
 
 /*---------------------------------------------------------------------------*/
 
-const botaoConfirmacaoResgate = (id) => {
+const botaoResgateConfirmado = (id) => {
     window.location.href = `resgate.html?id=${id}`;
 }
