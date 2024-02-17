@@ -34,7 +34,7 @@ const mostrarProdutos = async (produtos) => {
         `
 
         containerProdutos.innerHTML = conteudoProduto
-    } catch (error) {
+    } catch (error) { //Dúvida a ser sanada com Sérgio ou Letícia: enquanto o usuário não tiver feito nenhum resgate, deve ser exibido algum produto, como abaixo, ou vários produtos, um carrossel...
         console.error('Clique em Resgatar e escolha um produto!', error)
         containerProdutos.innerHTML = 
         `

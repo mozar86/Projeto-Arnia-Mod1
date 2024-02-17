@@ -94,7 +94,7 @@ img {
 }
 
 .imagem-groot {
-    width: 45%;
+    width: 42.01%;
     height: auto;
 }
 
@@ -106,11 +106,122 @@ img {
 }
 
 .info-resgate {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0%;
-    width: 700px;
-    height:  410px;
+    font-family: 'Sora', sans-serif;
+    margin-right: 157px;
+    margin-left: 130px;
+    width: 548px;
+    height: 433px;
     margin-bottom: 299px;
 }
 
+.detalhe-resgate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.titulo-resgate {
+    text-align: left;
+    width: 548px;
+    height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.produto-resgate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 344px;
+    height: 100px;
+    border: 1px solid #f5f4f9;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.img-produto-resgate {
+    background-color: #F5F4F9;
+    width: 100px;
+    height: 100px;
+    top: 346px;
+    left: 735px;
+    border-radius: 16px;
+    border: 1px solid #F5F4F9;
+    margin-right: 16px;
+}
+
+.nome-produto-resgate {
+    width: 228px;
+    height: 48px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    color: #000000;
+}
+
+.preco-produto {
+    width: 86px;
+    height: 27px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.explicacao-resgate {
+    width: 348px;
+    height: 54px;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.saldo-joias-resgate {
+    display: flex;
+    width: 170px;
+    height: 45px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.meu-saldo {
+    width: 91px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.valor-saldo {
+    width: 14px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #502B6B;
+    margin-right: 12px;
+    margin-left: 6px;
+}
+
+.imagem-joia-resgate {
+    width: 20px;
+    height: 20px;
+}
+
+.botao-voltar-inicial {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #502B6B;
+    width: 270px;
+    height: 72px;
+    border: 2px solid #502B6B;
+    border-radius: 16px;
+    cursor: pointer;
+}

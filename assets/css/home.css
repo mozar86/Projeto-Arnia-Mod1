@@ -215,6 +215,7 @@ img {
     background-position: 5% 50%;
     background-repeat: no-repeat;
     padding: 22px;
+    outline: none;
 }
 
 .lupa ::placeholder {
