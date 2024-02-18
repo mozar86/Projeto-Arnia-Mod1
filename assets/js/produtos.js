@@ -30,7 +30,7 @@ const mostrarProdutos = async (produtos) => {
                 <div class="descricao-produto">
                     <p>${produto.descricao}</p>
                 </div>
-                <button class="botao-produto" id="botao-produto" onclick="botaoResgateConfirmado('${produto.id}')" data-id="${produto.id}">Resgatar</button>
+                <button class="botao-produto" onclick="botaoResgateConfirmado(${produto.id})" data-id="${produto.id}">Resgatar</button>
             </section>
         `
 

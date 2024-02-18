@@ -43,13 +43,15 @@ const salvarOperacaoResgate = async (produto) => {
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const botaoProduto = document.querySelector('#botao-produto');
 
-    botaoProduto.addEventListener('click', async () => {
+    const botaoProduto = document.getElementById('#botao-produto');
+    //IMPORTANTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //Tentar obter id de algo fora do innerHTML onde foi incluído o botao-produto
+
+    botaoProduto.addEventListener('DOMContentLoaded','submit', async () => {
         const parametros = new URLSearchParams(window.location.search);
-        const idProduto = parametros.get('id');
-
+        const idProduto = parametros.get('id');        
+        console.log(idProduto)
         try {
             const produto = await obterProdutoPorId(idProduto);
             await salvarOperacaoResgate(produto);
@@ -60,4 +62,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     carregarDadosProdutos();
-});
+
