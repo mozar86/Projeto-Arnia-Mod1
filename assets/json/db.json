@@ -1,61 +1,70 @@
 {
-    "produtosResgatar": [
-        {
-            "id": "1",
-            "nome": "Console Sony Play Station 5 SSD 825GB",
-            "imagem": "../assets/images/console-sony-playstation-5.png",
-            "preco": 2,
-            "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer. Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
-        },
-        {
-            "id": "2",
-            "nome": "Cadeira Gamer KBM! Gaming Tempest CG600",
-            "imagem": "../assets/images/cadeira-gamer-kbm-gaming-cg600.png",
-            "preco": 2,
-            "descricao": "Conheça a cadeira KBM! GAMING Tempest CG600! Tenha horas incríveis desfrutando seu gameplay de maneira confortável e aconchegante! Feito com espuma de altíssima densidade e PU, a cadeira KBM! GAMING Tempest CG600 possui descanso para os pés, ideal para aquela pausa entre um jogo e outro! Além do design moderno e robusto, a cadeira proporciona ótima performance nas partidas devido a sensação de conforto que é convertida em foco e concentração, tudo que um gamer de verdade precisa para ser o melhor!"
-        },
-        {
-            "id": "3",
-            "nome": "Headset Gamer Redragon Zeus X Chroma Mk.II",
-            "imagem": "../assets/images/headset-gamer-redragon-zeus-x.png",
-            "preco": 2,
-            "descricao": "Recursos: Iluminação RGB Redragon Chroma Mk.II com 4 efeitos. Almofadas e revestimento interno do arco em tecido para proporcionar o máximo de conforto. Som estéreo e Surround 7.1 Virtual de alta qualidade pelos drivers de 53mm. Microfone com redução de ruído de fundo para captação clara e limpa. Controladora integrada para maior praticidade durante o uso. Compatível com software para ajustes e configurações personalizadas como equalização e controle de volume independente."
-        },
-        {
-            "id": "4",
-            "nome": "Gabinete Gamer Rise Mode Glass 06X",
-            "imagem": "../assets/images/gabinete-gamer-rise-mode-glass.png",
-            "preco": 2,
-            "descricao": "Para deixar seu Setup mais potente e cheio de estilo! Os Gabinetes são a estrutura que une toda sua build, onde você vai querer algo que tenha flexibilidade para montagem da suas peças, garanta boa refrigeração dos componentes e que deixe tudo bonito. O Gabinete Rise Mode Glass 06X é a melhor escolha para tudo isso. Com acabamento externo em Vidro, dand um toque de estilo ao seu setup. Além de possuir espaço para 6 Fans (que não acompanham o gabinete)."
-        },
-        {
-            "id": "5",
-            "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7",
-            "imagem": "../assets/images/notebook-gamer-acer-nitro-5.png",
-            "preco": 2,
-            "descricao": "Agora o Jogo Começa de Verdade! A fase avançada do seu jogo chegou! Esteja preparado com o notebook gamer Acer Aspire Nitro 5. Com ele, não existe game difícil, existe game brutal! Ação do Começo ao Fim! A super placa de vídeo NVIDIA® GeForce® GTX™ garante a performance que você precisa para surpreender seus adversários e jogar com alto nível de realismo. Gráficos realistas, imagens que fluem e muita emoção a cada jogada."
-        },
-        {
-            "id": "6",
-            "nome": "Smart TV TCL S5400A 43 Polegadas LED FHD",
-            "imagem": "../assets/images/smart-tv-tcl-s5400a-43-polegadas-led.png",
-            "preco": 2,
-            "descricao": "TV com Inteligência artificial + androidtv: Sua TV é uma Android TV, que usa o sistema operacional mais popular do mundo. Desfrute de músicas, filmes, games e mais - os essenciais de entretenimento vêm pré-instalados e você pode baixar mais através da Google Play Store. Controle Remoto com Comando de Voz: Mais praticidade: obtenha sugestão de séries, filmes, informações de trânsito e tempo, além de controlar os equipamentos da casa conectada (loT), utilizando o Google Assistente totalmente em português, através do controle remoto da sua TV."
-        },
-        {
-            "id": "7",
-            "nome": "Smartphone Motorola Moto Edge 30 Neo 256GB 8GB RAM",
-            "imagem": "../assets/images/smartphone-motorola-moto-edge-30-neo.png",
-            "preco": 2,
-            "descricao": "Conte sua história de um jeito mais realista e vibrante! Com o novo Moto Edge 30 Neo você grava vídeos que obedecem a padrões rigorosos de gama e precisão de cores, brilho e contraste. Sua tela plana, apresenta bordas geometricamente arredondadas, dando um toque diferenciado ao design do aparelho. Com um discreto furo centralizado, onde encontra-se a câmera frontal de 32 Megapixels, você terá selfies com qualidade e fotos com alta qualidade. As laterais utilizam material com acabamento metalizado. Neste a cor é uma das apostas da Pantone como a cor do ano: Very Purple"
-        },
-        {
-            "id": "8",
-            "nome": "SSD 500GB SanDisk Plus NVMe",
-            "imagem": "../assets/images/ssd-500gb-sandisk-plus.png",
-            "preco": 2,
-            "descricao": "Afie sua velocidade. Mude sua produtividade! Eleve o desempenho do seu PC com o SSD SanDisk SSD PLUS M.2 NVMe, a unidade que é 5x mais rápida que os SSDs SATA tradicionais, para que você possa continuar fazendo o que faz de melhor, com mais rapidez. E armazene mais do que você ama com os 500GB de capacidade para armazenar fotos, vídeos, músicas e documentos importantes."
-        }
-    ],
-    "meusResgates": []
+  "produtosResgatar": [
+    {
+      "id": "1",
+      "nome": "Console Sony Play Station 5 SSD 825GB",
+      "imagem": "../assets/images/console-sony-playstation-5.png",
+      "preco": 2,
+      "descricao": "Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer. Maximize suas sessões de jogo com tempo de carregamento praticamente instantâneo para jogos do PS5 instalados."
+    },
+    {
+      "id": "2",
+      "nome": "Cadeira Gamer KBM! Gaming Tempest CG600",
+      "imagem": "../assets/images/cadeira-gamer-kbm-gaming-cg600.png",
+      "preco": 2,
+      "descricao": "Conheça a cadeira KBM! GAMING Tempest CG600! Tenha horas incríveis desfrutando seu gameplay de maneira confortável e aconchegante! Feito com espuma de altíssima densidade e PU, a cadeira KBM! GAMING Tempest CG600 possui descanso para os pés, ideal para aquela pausa entre um jogo e outro! Além do design moderno e robusto, a cadeira proporciona ótima performance nas partidas devido a sensação de conforto que é convertida em foco e concentração, tudo que um gamer de verdade precisa para ser o melhor!"
+    },
+    {
+      "id": "3",
+      "nome": "Headset Gamer Redragon Zeus X Chroma Mk.II",
+      "imagem": "../assets/images/headset-gamer-redragon-zeus-x.png",
+      "preco": 2,
+      "descricao": "Recursos: Iluminação RGB Redragon Chroma Mk.II com 4 efeitos. Almofadas e revestimento interno do arco em tecido para proporcionar o máximo de conforto. Som estéreo e Surround 7.1 Virtual de alta qualidade pelos drivers de 53mm. Microfone com redução de ruído de fundo para captação clara e limpa. Controladora integrada para maior praticidade durante o uso. Compatível com software para ajustes e configurações personalizadas como equalização e controle de volume independente."
+    },
+    {
+      "id": "4",
+      "nome": "Gabinete Gamer Rise Mode Glass 06X",
+      "imagem": "../assets/images/gabinete-gamer-rise-mode-glass.png",
+      "preco": 2,
+      "descricao": "Para deixar seu Setup mais potente e cheio de estilo! Os Gabinetes são a estrutura que une toda sua build, onde você vai querer algo que tenha flexibilidade para montagem da suas peças, garanta boa refrigeração dos componentes e que deixe tudo bonito. O Gabinete Rise Mode Glass 06X é a melhor escolha para tudo isso. Com acabamento externo em Vidro, dand um toque de estilo ao seu setup. Além de possuir espaço para 6 Fans (que não acompanham o gabinete)."
+    },
+    {
+      "id": "5",
+      "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7",
+      "imagem": "../assets/images/notebook-gamer-acer-nitro-5.png",
+      "preco": 2,
+      "descricao": "Agora o Jogo Começa de Verdade! A fase avançada do seu jogo chegou! Esteja preparado com o notebook gamer Acer Aspire Nitro 5. Com ele, não existe game difícil, existe game brutal! Ação do Começo ao Fim! A super placa de vídeo NVIDIA® GeForce® GTX™ garante a performance que você precisa para surpreender seus adversários e jogar com alto nível de realismo. Gráficos realistas, imagens que fluem e muita emoção a cada jogada."
+    },
+    {
+      "id": "6",
+      "nome": "Smart TV TCL S5400A 43 Polegadas LED FHD",
+      "imagem": "../assets/images/smart-tv-tcl-s5400a-43-polegadas-led.png",
+      "preco": 2,
+      "descricao": "TV com Inteligência artificial + androidtv: Sua TV é uma Android TV, que usa o sistema operacional mais popular do mundo. Desfrute de músicas, filmes, games e mais - os essenciais de entretenimento vêm pré-instalados e você pode baixar mais através da Google Play Store. Controle Remoto com Comando de Voz: Mais praticidade: obtenha sugestão de séries, filmes, informações de trânsito e tempo, além de controlar os equipamentos da casa conectada (loT), utilizando o Google Assistente totalmente em português, através do controle remoto da sua TV."
+    },
+    {
+      "id": "7",
+      "nome": "Smartphone Motorola Moto Edge 30 Neo 256GB 8GB RAM",
+      "imagem": "../assets/images/smartphone-motorola-moto-edge-30-neo.png",
+      "preco": 2,
+      "descricao": "Conte sua história de um jeito mais realista e vibrante! Com o novo Moto Edge 30 Neo você grava vídeos que obedecem a padrões rigorosos de gama e precisão de cores, brilho e contraste. Sua tela plana, apresenta bordas geometricamente arredondadas, dando um toque diferenciado ao design do aparelho. Com um discreto furo centralizado, onde encontra-se a câmera frontal de 32 Megapixels, você terá selfies com qualidade e fotos com alta qualidade. As laterais utilizam material com acabamento metalizado. Neste a cor é uma das apostas da Pantone como a cor do ano: Very Purple"
+    },
+    {
+      "id": "8",
+      "nome": "SSD 500GB SanDisk Plus NVMe",
+      "imagem": "../assets/images/ssd-500gb-sandisk-plus.png",
+      "preco": 2,
+      "descricao": "Afie sua velocidade. Mude sua produtividade! Eleve o desempenho do seu PC com o SSD SanDisk SSD PLUS M.2 NVMe, a unidade que é 5x mais rápida que os SSDs SATA tradicionais, para que você possa continuar fazendo o que faz de melhor, com mais rapidez. E armazene mais do que você ama com os 500GB de capacidade para armazenar fotos, vídeos, músicas e documentos importantes."
+    }
+  ],
+  "meusResgates": [
+    {
+      "id": "dce1",
+      "produto": {
+        "nome": "Console Sony Play Station 5 SSD 825GB",
+        "imagem": "../assets/images/console-sony-playstation-5.png",
+        "horario": "2024-02-18T20:35:57.382Z"
+      }
+    }
+  ]
 }

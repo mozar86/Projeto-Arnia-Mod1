@@ -1,7 +1,7 @@
 
 const obterProdutos = async () => {
     
-    const requisicao = await fetch('http://localhost:3000/produtosResgatar')
+    const requisicao = await fetch('https://api-projeto-tnxh.onrender.com/produtos/')
 
     const produtos = await requisicao.json()
     
@@ -27,7 +27,7 @@ const injetarProduto = (produtos) => {
                 <h3 class="titulo-produto">${produto.nome}</h3>
             </div>
             <div class="div-botao-card">
-            <button class="botao-card" onclick="botaoResgatarHome(${produto.id})" data-id="${produto.id}">Resgatar</button>
+                <button class="botao-card" onclick="botaoResgatarHome(${produto.id})" data-id="${produto.id}">Resgatar</button>
             </div>
         </div>
         `
@@ -35,6 +35,9 @@ const injetarProduto = (produtos) => {
     produtoDiv.innerHTML = conteudoProduto
 }
 
+const botaoResgatarHome = (id) => {
+    window.location.href = `produtos.html?id=${id}`;
+}
 /*------------------------------------*/
 
 const carregarProdutos = async () => {
@@ -48,7 +51,5 @@ carregarProdutos()
 
 /*------------------------------------*/
 
-const botaoResgatarHome = (id) => {
-    window.location.href = `produtos.html?id=${id}`;
-}
+
 
