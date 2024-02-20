@@ -65,6 +65,36 @@
         "imagem": "../assets/images/console-sony-playstation-5.png",
         "horario": "2024-02-18T20:35:57.382Z"
       }
+    },
+    {
+      "id": "8",
+      "imagem": "../assets/images/ssd-500gb-sandisk-plus.png",
+      "nome": "SSD 500GB SanDisk Plus NVMe",
+      "data": "2024-02-20T19:14:15.416Z"
+    },
+    {
+      "id": "3",
+      "imagem": "../assets/images/headset-gamer-redragon-zeus-x.png",
+      "nome": "Headset Gamer Redragon Zeus X Chroma Mk.II",
+      "data": "2024-02-20T19:20:23.457Z"
+    },
+    {
+      "id": "5",
+      "imagem": "../assets/images/notebook-gamer-acer-nitro-5.png",
+      "nome": "Notebook Gamer Acer Nitro 5 Intel Core I7",
+      "data": "2024-02-20T19:56:41.631Z"
+    },
+    {
+      "id": "4",
+      "imagem": "../assets/images/gabinete-gamer-rise-mode-glass.png",
+      "nome": "Gabinete Gamer Rise Mode Glass 06X",
+      "data": "2024-02-20T19:57:05.399Z"
+    },
+    {
+      "id": "6",
+      "imagem": "../assets/images/smart-tv-tcl-s5400a-43-polegadas-led.png",
+      "nome": "Smart TV TCL S5400A 43 Polegadas LED FHD",
+      "data": "2024-02-20T20:08:05.065Z"
     }
   ]
 }

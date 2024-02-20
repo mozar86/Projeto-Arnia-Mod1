@@ -1,7 +1,7 @@
 
 const obterProdutos = async () => {
     
-    const requisicao = await fetch('https://api-projeto-tnxh.onrender.com/produtos/')
+    const requisicao = await fetch('http://localhost:3000/produtosResgatar')
 
     const produtos = await requisicao.json()
     

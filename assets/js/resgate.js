@@ -1,33 +1,33 @@
-const obterProdutoResgatado = async (id) =>{
-    console.log(id)
-    const requisicao = await fetch(`https://api-projeto-tnxh.onrender.com/resgates/${id}`)
+const obterResgate = async (id) =>{
+    
+    const requisicao = await fetch(`http://localhost:3000/meusResgates/${id}`)
     let produto = await requisicao.json()
-    console.log(produto)
+    
     return produto
 }
 
 
-const mostrarProdutoResgatado = async (produtoResgatado) =>{
-    console.log(produtoResgatado)
+const exibirResgate = async (produto) =>{
     let produtoResgatadoSelecionado = document.getElementById('produto-resgate')   
+    
     produtoResgatadoSelecionado.innerHTML +=
     `
-        <div><img class="img-produto-resgate" src="${produtoResgatado.imagem}"></div>
-        <div class="explicacao-resgate">
-            <h3>${produtoResgatado.nome}</h3>
-            <p>Por: <span class="preco">${produtoResgatado.valor} <img class"imagem-preco" src="../Imagens/diamond.png"> </span></p>
-        </div>
+        <img class="img-produto-resgate" src="${produto.imagem}"  alt="Imagem de ${produto.nome}"> 
+        <h5 class="nome-produto-resgate">${produto.nome}</h5>
+        <img class="preco-produto" src="../assets/images/preco-produto.png" alt="Imagem do Preço do Produto">
     `
 }
 
 
 
-const carregarProdutoResgatado = async () =>{
+const carregarResgate = async () =>{
+    
     const parametros = new URLSearchParams(window.location.search);
     const id = parametros.get('id');
-    const produto = await obterProdutoResgatado(id)
-    console.log(produto)
-    mostrarProdutoResgatado(produto)
+    
+    const produto = await obterResgate(id)
+    
+    exibirResgate(produto)
 }
 
-carregarProdutoResgatado()
+carregarResgate()

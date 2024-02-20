@@ -1,26 +1,34 @@
 const obterProdutos = async (id) =>{
-    const requisicao = await fetch(`https://projeto-final-cuture-code-db.onrender.com/produtos/${id}`)
+   
+    const requisicao = await fetch(`http://localhost:3000/produtosResgatar/${id}`)
     let produto = await requisicao.json()
+   
     return produto
 }
 
 
 const exibirProduto = async (produto) =>{
-    let produtoResgatado = document.getElementById('container-produto')   
-    produtoResgatado.innerHTML +=`
-    <div class="imagem-produto">
-    <img src="${produto.imagem}"/>
-</div>
-<div class="descricao-produto">
-    <h1 "class="titulo"><span id='nome'>${produto.nome}<span></h1>
-    <span class="valor">Por ${produto.valor} <img class"imagem-preco" src="../Imagens/diamond.png"></span>
-    <p class="texto">${produto.descricao}</p>
-    <button onclick="resgatar(${produto.id})">Resgatar</button>
-</div>`;
+    let produtoResgatado = document.getElementById('container-produtos')
+
+    produtoResgatado.innerHTML +=
+    `
+        <section class="imagem-produtos">
+            <img class="imagem-produto" src="${produto.imagem}" alt="Imagem de um ${produto.nome}">
+        </section>
+        <section class="info-produtos">
+            <h3 class="titulo-produto">${produto.nome}</h3>
+            <img class="preco-produto" src="../assets/images/preco-produto.png" alt="Imagem do Preço do Produto">
+            <div class="descricao-produto">
+                <p>${produto.descricao}</p>
+            </div>
+            <button class="botao-produto" onclick="resgatar(${produto.id})">Resgatar</button>
+        </section>
+    `
 }
-const salvarResgate = async (id) =>{
+
+const envioResgate = async (id) =>{
     const produto =  await obterProdutos(id) 
-    console.log(produto)
+
      const produtoSelecionado = {
          imagem: produto.imagem,
          nome: produto.nome,
@@ -30,28 +38,32 @@ const salvarResgate = async (id) =>{
 
      }
     console.log(produtoSelecionado)     
-     await fetch(`https://projeto-final-cuture-code-db.onrender.com/resgates`, {
+     await fetch(`http://localhost:3000/meusResgates`, {
          method: 'POST',
          headers: {
              'Accept': 'application/json, text/plain, */*',
              'Content-Type': 'application/json'
          },
-         body: JSON.stringify(produtoResgatado)
+         body: JSON.stringify(produtoSelecionado)
      })
 } 
     
    
 
 const resgatar = async (id) =>{
-    await salvarResgate(id)
-    window.location = `../pages/paginaResgate.html?id=${id}`
+    await envioResgate(id)
+    window.location = `../html/resgate.html?id=${id}`
 }
 
-const carregarDadosProduto = async () =>{
-    const parametros = new URLSearchParams(window.location.search);
-    const id = parametros.get('id');
-    const produtos = await getProdutoResgatado(id)
-    mostrarProduto(produtos)
+const carregarDados = async () =>{
+
+    const parametros = new URLSearchParams(window.location.search)
+    const id = parametros.get('id')
+
+    const produtos = await obterProdutos(id)
+    
+    exibirProduto(produtos)
+
 }
 
-carregarDadosProduto()
+carregarDados()
